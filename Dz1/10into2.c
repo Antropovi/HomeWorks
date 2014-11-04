@@ -1,5 +1,4 @@
-// HomeWork2.cpp : ѕеревод числа из 10ой системе исчеслени€
-//				   во 2ую систему исчеслени€
+// HomeWork2.cpp : Perevod iz 10 v 2 sistemu isch
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,7 +15,7 @@ int main(int argc, char **argv)
 
 	scanf("%d", &k);
 	 k1 = (unsigned int)k;
-	i=sizeof(a)-2; // номер последнего эл-та массива
+	i=sizeof(a)-2; // nuber of last elem of array
 	 while(k1!=0 && i>0){
 		a[i] = '0' + (k1 %2);
 		k1/=2;
