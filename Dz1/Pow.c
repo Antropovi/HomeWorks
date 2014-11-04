@@ -1,5 +1,4 @@
-// HomeWork1.cpp : Реализация "быстрого" возведения числа в степень
-// Антропов И 171г 31.10.2013
+// HomeWork1.cpp : Reavization of fast powing
 
 #include "stdafx.h"
 #include <conio.h>
