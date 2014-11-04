@@ -1,4 +1,4 @@
-// HomeWork8.cpp : Битовые операции. Знак целого числа (-1, 0, 1). Без логических операций.
+// HomeWork8.cpp : Sign of nuber. 
 //
 
 #include "stdafx.h"
