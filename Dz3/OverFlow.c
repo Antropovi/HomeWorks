@@ -1,4 +1,4 @@
-// HomeWork6.cpp : Переполнение стека функции. 
+// HomeWork6.cpp : Owerflow 
 //
 
 #include "stdafx.h"
@@ -27,10 +27,10 @@ typedef void (*p_fun)(void);
 		 val.pa[0]=&a;
 
 		 val.pb = &b;
-		(*val.pb)();   // вызывается b
+		(*val.pb)();   // called b
 
-		val.pa[-1]=&a; // Lol. Массив от -1 элемента :D
-		(*val.pb)();   // вызывается a
+		val.pa[-1]=&a; // Lol. Massive from -1 elem
+		(*val.pb)();   // called a instead b
 
 		getch();
 		return 0;
