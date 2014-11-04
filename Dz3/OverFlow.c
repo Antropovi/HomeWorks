@@ -1,4 +1,4 @@
-// HomeWork6.cpp : Owerflow 
+// HomeWork6.cpp : Owerflow  переполнение стека
 //
 
 #include "stdafx.h"
