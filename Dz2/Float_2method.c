@@ -1,4 +1,4 @@
-// HomeWork4.cpp : Вывод внутренностей float 2ым способом
+// HomeWork4.cpp : Р’РЅСѓС‚СЂРµРЅРЅРѕСЃС‚Рё float. 2 СЃРїРѕСЃРѕР±
 //
 
 #include "stdafx.h"
