@@ -18,15 +18,18 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 
 	MyStruct val;
-	scanf("%f", &val.val.fval);
+	float a,b;
+	scanf("%f",&a);
+	scanf("%f",&b);
+	val.val.fval=a/b;
 	unsigned exp = (val.val.ival >>23) & 0xff;
 	unsigned sign = (val.val.ival>>31) & 0x01;
 	unsigned mantissa=(val.val.ival  & 0x007fffff);
-	if (exp==255 && mantissa) {
-		if (sign) printf ("infinity"); else printf ("-infinity");
+	if (exp==255 && !mantissa) {
+		if (!sign) printf ("infinity"); else printf ("-infinity");
 	}
 	else 
-		if (exp && !mantissa) printf("NaN");
+		if (exp==255 && mantissa) printf("NaN");
 		else 
 			if (!exp && !mantissa) printf("fval=0");
 			else
