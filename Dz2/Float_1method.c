@@ -18,7 +18,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	unsigned exp = (val.ival >>23) & 0xff;
 	unsigned sign = (val.ival>>31) & 0x01;
 	unsigned mantissa=(val.ival  & 0x007fffff);
-	if (exp=255 && mantissa) {
+	if (exp==255 && mantissa) {
 		if (sign) printf ("infinity"); else printf ("-infinity");
 	}
 	else 
