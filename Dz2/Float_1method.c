@@ -15,9 +15,19 @@ int _tmain(int argc, _TCHAR* argv[])
 	MyStruct val;
 	scanf("%f", &val.fval);
 	val.ival = *((int*)((void*)&val.fval));
-	printf("sign = %lu,  exp = %lu,   mantisa = %lu", (val.ival>>31) & 0x01,
-                            (val.ival >>23) & 0xff, val.ival  & 0x007fffff);
-	getch();
-	return 0;
+	unsigned exp = (val.ival >>23) & 0xff;
+	unsigned sign = (val.ival>>31) & 0x01;
+	unsigned mantissa=(val.ival  & 0x007fffff);
+	if (!exp && mantissa) {
+		if (sign) printf ("infinity"); else printf ("-infinity");
+	}
+	else 
+		if (exp && !mantissa) printf("NaN");
+		else 
+			if (!exp && !mantissa) printf("fval=0");
+			else
+			{
+				printf("fval = (-1)^%d*2^%d*1.%lu ", sign, exp-127, mantissa);
+			}
 }
 
