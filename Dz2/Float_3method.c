@@ -1,4 +1,4 @@
-// HomeWork3.cpp : Вывод float. 3 способ
+// Антропов ИМ : Вывод float. 3 способ
 //
 
 #include "stdafx.h"
