@@ -19,12 +19,15 @@ union val
 int _tmain(int argc, _TCHAR* argv[])
 {
 	val fval;
-	scanf("%f",&fval.f);
-	if (fval.image.exp==255 && fval.image.mantissa) {
-		if (fval.image.sign) printf ("infinity"); else printf ("-infinity");
+	float a,b;
+	scanf("%f",&a);
+	scanf("%f",&b);
+	fval.f=a/b;
+	if (fval.image.exp==255 && !fval.image.mantissa) {
+		if (!fval.image.sign) printf ("infinity"); else printf ("-infinity");
 	}
 	else 
-		if (fval.image.exp && !fval.image.mantissa) printf("NaN");
+		if (fval.image.exp==255 && fval.image.mantissa) printf("NaN");
 		else 
 			if (!fval.image.exp && !fval.image.mantissa) printf("fval=0");
 			else
