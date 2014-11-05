@@ -1,4 +1,4 @@
-// HomeWork2.cpp : Perevod iz 10 v 2 sistemu isch
+// Антропов И М Perevod iz 10 v 2 sistemu isch
 
 #include <stdio.h>
 #include <stdlib.h>
