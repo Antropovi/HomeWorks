@@ -1,4 +1,4 @@
-// HomeWork8.cpp : Sign of nuber. 
+// Антропов И М: Sign of nuber. 
 //
 
 #include "stdafx.h"
