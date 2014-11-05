@@ -20,7 +20,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	val fval;
 	scanf("%f",&fval.f);
-	if (!fval.image.exp && fval.image.mantissa) {
+	if (fval.image.exp==255 && fval.image.mantissa) {
 		if (fval.image.sign) printf ("infinity"); else printf ("-infinity");
 	}
 	else 
