@@ -1,4 +1,4 @@
-// HomeWork4.cpp : Внутренности float. 2 способ
+// Антропов ИМ : Внутренности float. 2 способ
 //
 
 #include "stdafx.h"
