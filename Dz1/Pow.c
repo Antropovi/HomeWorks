@@ -1,4 +1,4 @@
-// HomeWork1.cpp : Reavization of fast powing
+// Антропов И М Reavization of fast powing
 
 #include "stdafx.h"
 #include <conio.h>
