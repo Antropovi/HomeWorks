@@ -8,7 +8,7 @@
  
 int main(int argc, char **argv)
 {
-	char a[]="     ";
+	char a[sizeof(int)*8]="   ";
 	int i=0;
 	int k=0;
 	unsigned int k1;
