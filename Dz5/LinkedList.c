@@ -5,8 +5,7 @@
 #include "stdafx.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
-#include < string.h > 
+#include <string.h> 
 
 struct node
 {
@@ -28,7 +27,7 @@ void Add(float val){
 void Print(){
  node * curr = head;
  while (curr) {
-  printf("%f"  ,curr->val);
+  printf("%.2f  " ,curr->val);
   curr=curr->next;
  }
   printf("\n");
@@ -69,7 +68,9 @@ int main()
 {
  char String[100]="";
   float f;
-
+ printf("Введите Строку где, a ARG - добавить число\n");
+ printf("r ARG - удалить первое вхождение числа\n");
+ printf("p - вывести весь список\nq - выход из программы\n");
  scanf("%s", String);
   while(String[0]!='q')
   {
