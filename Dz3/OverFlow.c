@@ -2,36 +2,34 @@
 //
 
 #include "stdafx.h"
-#include <string.h>
-#include <conio.h>
- 
-typedef void (*p_fun)(void);
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h> 
 
 
-	void a(){
-			 printf("proc a\n");
-		}
-	void b(){
-			printf("proc b\n");
-		}
+void overflow(char str[]) 
+{
+ char buffer[4];
+ printf("buffer %p\n", buffer);
+ printf("Stack:\n");
+ printf("\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n");
 
-	struct MyStruct
-	{
-		p_fun pb;
-		p_fun pa[2];
-	};
+ strcpy(buffer, str);
 
-	int _tmain(int argc, _TCHAR* argv[])
-	{
-		 MyStruct val;
-		 val.pa[0]=&a;
+ printf("Stack:\n");
+ printf("\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n\t%p\n");
+}
 
-		 val.pb = &b;
-		(*val.pb)();   // called b
+void login() 
+{
+  printf("\nChtoto poshlo ne tak\n");
+}
 
-		val.pa[-1]=&a; // Lol. Massive from -1 elem
-		(*val.pb)();   // called a instead b
-
-		getch();
-		return 0;
+int main(void) 
+{
+  char str[] = "TwelveSymbol    " ;     //12 symbol + hack address
+  memmove(str+12, &login, 4);
+  printf("str[12]: %p login: %p  main: %p\n", (void*)(str+12), &login, &main);
+  overflow(str);
+  return 0;
 }
