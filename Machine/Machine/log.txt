@@ -1,0 +1,1840 @@
+    turing_machine "123" 1 1 21
+    turing rules[0] = (state:1 symbol:48 - new_state:1 new_symbol:48 move:2)
+    turing rules[1] = (state:2 symbol:48 - new_state:3 new_symbol:49 move:0)
+    turing rules[2] = (state:1 symbol:49 - new_state:1 new_symbol:49 move:2)
+    turing rules[3] = (state:2 symbol:49 - new_state:3 new_symbol:50 move:0)
+    turing rules[4] = (state:1 symbol:50 - new_state:1 new_symbol:50 move:2)
+    turing rules[5] = (state:2 symbol:50 - new_state:3 new_symbol:51 move:0)
+    turing rules[6] = (state:1 symbol:51 - new_state:1 new_symbol:51 move:2)
+    turing rules[7] = (state:2 symbol:51 - new_state:3 new_symbol:52 move:0)
+    turing rules[8] = (state:1 symbol:52 - new_state:1 new_symbol:52 move:2)
+    turing rules[9] = (state:2 symbol:52 - new_state:3 new_symbol:53 move:0)
+    turing rules[10] = (state:1 symbol:53 - new_state:1 new_symbol:53 move:2)
+    turing rules[11] = (state:2 symbol:53 - new_state:3 new_symbol:54 move:0)
+    turing rules[12] = (state:1 symbol:54 - new_state:1 new_symbol:54 move:2)
+    turing rules[13] = (state:2 symbol:54 - new_state:3 new_symbol:55 move:0)
+    turing rules[14] = (state:1 symbol:55 - new_state:1 new_symbol:55 move:2)
+    turing rules[15] = (state:2 symbol:55 - new_state:3 new_symbol:56 move:0)
+    turing rules[16] = (state:1 symbol:56 - new_state:1 new_symbol:56 move:2)
+    turing rules[17] = (state:2 symbol:56 - new_state:3 new_symbol:57 move:0)
+    turing rules[18] = (state:1 symbol:57 - new_state:1 new_symbol:57 move:2)
+    turing rules[19] = (state:2 symbol:57 - new_state:2 new_symbol:48 move:1)
+    turing rules[20] = (state:1 symbol:95 - new_state:2 new_symbol:95 move:1)
+    turing_step "_123_" 1 1 21
+    turing_seek_rule 1 1 21
+        normal_alg "11" 22
+        normal rules[0] = ("10" "10" 1)
+        normal rules[1] = ("20" "20" 1)
+        normal rules[2] = ("11" "11" 1)
+        normal rules[3] = ("21" "21" 1)
+        normal rules[4] = ("12" "12" 1)
+        normal rules[5] = ("22" "22" 1)
+        normal rules[6] = ("13" "13" 1)
+        normal rules[7] = ("23" "23" 1)
+        normal rules[8] = ("14" "14" 1)
+        normal rules[9] = ("24" "24" 1)
+        normal rules[10] = ("15" "15" 1)
+        normal rules[11] = ("25" "25" 1)
+        normal rules[12] = ("16" "16" 1)
+        normal rules[13] = ("26" "26" 1)
+        normal rules[14] = ("17" "17" 1)
+        normal rules[15] = ("27" "27" 1)
+        normal rules[16] = ("18" "18" 1)
+        normal rules[17] = ("28" "28" 1)
+        normal rules[18] = ("19" "19" 1)
+        normal rules[19] = ("29" "29" 1)
+        normal rules[20] = ("1_" "1_" 1)
+        normal rules[21] = ("11" "11" 1)
+            param 0x47d458 type 2
+            lambda_replace
+            param 0x47d4a8 type 1
+            param 0x47d4bc type 2
+            lambda_get_n_string
+            param 0x47d538 type 2
+            lambda_search_index
+            param 0x47d740 type 1
+            param 0x47d754 type 1
+            param 0x47d768 type 1
+            param 0x47d77c type 1
+            param 0x47d790 type 1
+            param 0x47d7a4 type 1
+            param 0x47d7b8 type 1
+            param 0x47d7cc type 1
+            param 0x47d7e0 type 1
+            param 0x47d7f4 type 1
+            param 0x47d808 type 1
+            param 0x47d81c type 1
+            param 0x47d830 type 1
+            param 0x47d844 type 1
+            param 0x47d858 type 1
+            param 0x47d86c type 1
+            param 0x47d880 type 1
+            param 0x47d894 type 1
+            param 0x47d8a8 type 1
+            param 0x47d8bc type 1
+            param 0x47d8d0 type 1
+            param 0x47d8e4 type 1
+            param 0x47d8f8 type 1
+            i 3 pos 0
+            i 22 pos 0
+            lambda_search_index 2 pos_best 0
+            param 0x47d54c type 1
+            param 0x47d560 type 1
+            param 0x47d574 type 1
+            param 0x47d588 type 1
+            param 0x47d59c type 1
+            param 0x47d5b0 type 1
+            param 0x47d5c4 type 1
+            param 0x47d5d8 type 1
+            param 0x47d5ec type 1
+            param 0x47d600 type 1
+            param 0x47d614 type 1
+            param 0x47d628 type 1
+            param 0x47d63c type 1
+            param 0x47d650 type 1
+            param 0x47d664 type 1
+            param 0x47d678 type 1
+            param 0x47d68c type 1
+            param 0x47d6a0 type 1
+            param 0x47d6b4 type 1
+            param 0x47d6c8 type 1
+            param 0x47d6dc type 1
+            param 0x47d6f0 type 1
+            index 2
+            str_from "11"
+            lambda_get_n_string "11"
+            param 0x47d4d0 type 2
+            lambda_get_n_string
+            param 0x47d948 type 2
+            lambda_search_index
+            param 0x47db50 type 1
+            param 0x47db64 type 1
+            param 0x47db78 type 1
+            param 0x47db8c type 1
+            param 0x47dba0 type 1
+            param 0x47dbb4 type 1
+            param 0x47dbc8 type 1
+            param 0x47dbdc type 1
+            param 0x47dbf0 type 1
+            param 0x47dc04 type 1
+            param 0x47dc18 type 1
+            param 0x47dc2c type 1
+            param 0x47dc40 type 1
+            param 0x47dc54 type 1
+            param 0x47dc68 type 1
+            param 0x47dc7c type 1
+            param 0x47dc90 type 1
+            param 0x47dca4 type 1
+            param 0x47dcb8 type 1
+            param 0x47dccc type 1
+            param 0x47dce0 type 1
+            param 0x47dcf4 type 1
+            param 0x47dd08 type 1
+            i 3 pos 0
+            i 22 pos 0
+            lambda_search_index 2 pos_best 0
+            param 0x47d95c type 1
+            param 0x47d970 type 1
+            param 0x47d984 type 1
+            param 0x47d998 type 1
+            param 0x47d9ac type 1
+            param 0x47d9c0 type 1
+            param 0x47d9d4 type 1
+            param 0x47d9e8 type 1
+            param 0x47d9fc type 1
+            param 0x47da10 type 1
+            param 0x47da24 type 1
+            param 0x47da38 type 1
+            param 0x47da4c type 1
+            param 0x47da60 type 1
+            param 0x47da74 type 1
+            param 0x47da88 type 1
+            param 0x47da9c type 1
+            param 0x47dab0 type 1
+            param 0x47dac4 type 1
+            param 0x47dad8 type 1
+            param 0x47daec type 1
+            param 0x47db00 type 1
+            index 2
+            str_from "2"
+            lambda_get_n_string "2"
+            param 0x47d4e4 type 2
+            lambda_get_n_int
+            param 0x47dd58 type 2
+            lambda_search_index
+            param 0x47df60 type 1
+            param 0x47df74 type 1
+            param 0x47df88 type 1
+            param 0x47df9c type 1
+            param 0x47dfb0 type 1
+            param 0x47dfc4 type 1
+            param 0x47dfd8 type 1
+            param 0x47dfec type 1
+            param 0x47e000 type 1
+            param 0x47e014 type 1
+            param 0x47e028 type 1
+            param 0x47e03c type 1
+            param 0x47e050 type 1
+            param 0x47e064 type 1
+            param 0x47e078 type 1
+            param 0x47e08c type 1
+            param 0x47e0a0 type 1
+            param 0x47e0b4 type 1
+            param 0x47e0c8 type 1
+            param 0x47e0dc type 1
+            param 0x47e0f0 type 1
+            param 0x47e104 type 1
+            param 0x47e118 type 1
+            i 3 pos 0
+            i 22 pos 0
+            lambda_search_index 2 pos_best 0
+            param 0x47dd6c type 1
+            param 0x47dd80 type 1
+            param 0x47dd94 type 1
+            param 0x47dda8 type 1
+            param 0x47ddbc type 1
+            param 0x47ddd0 type 1
+            param 0x47dde4 type 1
+            param 0x47ddf8 type 1
+            param 0x47de0c type 1
+            param 0x47de20 type 1
+            param 0x47de34 type 1
+            param 0x47de48 type 1
+            param 0x47de5c type 1
+            param 0x47de70 type 1
+            param 0x47de84 type 1
+            param 0x47de98 type 1
+            param 0x47deac type 1
+            param 0x47dec0 type 1
+            param 0x47ded4 type 1
+            param 0x47dee8 type 1
+            param 0x47defc type 1
+            param 0x47df10 type 1
+            index 2
+            lambda_get_n_int 1
+            lambda_replace "11" "11" "2" 1
+            lambda_replace "2"
+        normal_alg "2"
+    turing_seek_rule ret 2
+    turing_step n 2
+    turing_change_symbol "_123_" 1
+        normal_alg "_123_" 1
+        normal rules[0] = ("_1" "_1" 1)
+            param 0x47bdd0 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from "_1"
+            lambda_get_n_string "_1"
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from "_1"
+            lambda_get_n_string "_1"
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "_123_" "_1" "_1" 1
+            lambda_replace "_123_"
+        normal_alg "_123_"
+    turing_change_symbol return TRUE
+    turing_change_pos 1 5
+        normal_alg "" 1
+        normal rules[0] = ("" "" 1)
+            param 0x47bdd0 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "" "" "" 1
+            lambda_replace ""
+        normal_alg ""
+    turing_change_pos new pos 2 ret 1
+    turing_change_state 1635628
+        normal_alg "" 1
+        normal rules[0] = ("" "" 1)
+            param 0x47bdd0 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "" "" "" 1
+            lambda_replace ""
+        normal_alg ""
+    turing_change_state new state 1635628 ret 0
+    turing_step ret 1
+    turing_step "_123_" 2 1 21
+    turing_seek_rule 2 1 21
+        normal_alg "12" 22
+        normal rules[0] = ("10" "10" 1)
+        normal rules[1] = ("20" "20" 1)
+        normal rules[2] = ("11" "11" 1)
+        normal rules[3] = ("21" "21" 1)
+        normal rules[4] = ("12" "12" 1)
+        normal rules[5] = ("22" "22" 1)
+        normal rules[6] = ("13" "13" 1)
+        normal rules[7] = ("23" "23" 1)
+        normal rules[8] = ("14" "14" 1)
+        normal rules[9] = ("24" "24" 1)
+        normal rules[10] = ("15" "15" 1)
+        normal rules[11] = ("25" "25" 1)
+        normal rules[12] = ("16" "16" 1)
+        normal rules[13] = ("26" "26" 1)
+        normal rules[14] = ("17" "17" 1)
+        normal rules[15] = ("27" "27" 1)
+        normal rules[16] = ("18" "18" 1)
+        normal rules[17] = ("28" "28" 1)
+        normal rules[18] = ("19" "19" 1)
+        normal rules[19] = ("29" "29" 1)
+        normal rules[20] = ("1_" "1_" 1)
+        normal rules[21] = ("12" "12" 1)
+            param 0x47d458 type 2
+            lambda_replace
+            param 0x47d4a8 type 1
+            param 0x47d4bc type 2
+            lambda_get_n_string
+            param 0x47d538 type 2
+            lambda_search_index
+            param 0x47d740 type 1
+            param 0x47d754 type 1
+            param 0x47d768 type 1
+            param 0x47d77c type 1
+            param 0x47d790 type 1
+            param 0x47d7a4 type 1
+            param 0x47d7b8 type 1
+            param 0x47d7cc type 1
+            param 0x47d7e0 type 1
+            param 0x47d7f4 type 1
+            param 0x47d808 type 1
+            param 0x47d81c type 1
+            param 0x47d830 type 1
+            param 0x47d844 type 1
+            param 0x47d858 type 1
+            param 0x47d86c type 1
+            param 0x47d880 type 1
+            param 0x47d894 type 1
+            param 0x47d8a8 type 1
+            param 0x47d8bc type 1
+            param 0x47d8d0 type 1
+            param 0x47d8e4 type 1
+            param 0x47d8f8 type 1
+            i 5 pos 0
+            i 22 pos 0
+            lambda_search_index 4 pos_best 0
+            param 0x47d54c type 1
+            param 0x47d560 type 1
+            param 0x47d574 type 1
+            param 0x47d588 type 1
+            param 0x47d59c type 1
+            param 0x47d5b0 type 1
+            param 0x47d5c4 type 1
+            param 0x47d5d8 type 1
+            param 0x47d5ec type 1
+            param 0x47d600 type 1
+            param 0x47d614 type 1
+            param 0x47d628 type 1
+            param 0x47d63c type 1
+            param 0x47d650 type 1
+            param 0x47d664 type 1
+            param 0x47d678 type 1
+            param 0x47d68c type 1
+            param 0x47d6a0 type 1
+            param 0x47d6b4 type 1
+            param 0x47d6c8 type 1
+            param 0x47d6dc type 1
+            param 0x47d6f0 type 1
+            index 4
+            str_from "12"
+            lambda_get_n_string "12"
+            param 0x47d4d0 type 2
+            lambda_get_n_string
+            param 0x47d948 type 2
+            lambda_search_index
+            param 0x47db50 type 1
+            param 0x47db64 type 1
+            param 0x47db78 type 1
+            param 0x47db8c type 1
+            param 0x47dba0 type 1
+            param 0x47dbb4 type 1
+            param 0x47dbc8 type 1
+            param 0x47dbdc type 1
+            param 0x47dbf0 type 1
+            param 0x47dc04 type 1
+            param 0x47dc18 type 1
+            param 0x47dc2c type 1
+            param 0x47dc40 type 1
+            param 0x47dc54 type 1
+            param 0x47dc68 type 1
+            param 0x47dc7c type 1
+            param 0x47dc90 type 1
+            param 0x47dca4 type 1
+            param 0x47dcb8 type 1
+            param 0x47dccc type 1
+            param 0x47dce0 type 1
+            param 0x47dcf4 type 1
+            param 0x47dd08 type 1
+            i 5 pos 0
+            i 22 pos 0
+            lambda_search_index 4 pos_best 0
+            param 0x47d95c type 1
+            param 0x47d970 type 1
+            param 0x47d984 type 1
+            param 0x47d998 type 1
+            param 0x47d9ac type 1
+            param 0x47d9c0 type 1
+            param 0x47d9d4 type 1
+            param 0x47d9e8 type 1
+            param 0x47d9fc type 1
+            param 0x47da10 type 1
+            param 0x47da24 type 1
+            param 0x47da38 type 1
+            param 0x47da4c type 1
+            param 0x47da60 type 1
+            param 0x47da74 type 1
+            param 0x47da88 type 1
+            param 0x47da9c type 1
+            param 0x47dab0 type 1
+            param 0x47dac4 type 1
+            param 0x47dad8 type 1
+            param 0x47daec type 1
+            param 0x47db00 type 1
+            index 4
+            str_from "4"
+            lambda_get_n_string "4"
+            param 0x47d4e4 type 2
+            lambda_get_n_int
+            param 0x47dd58 type 2
+            lambda_search_index
+            param 0x47df60 type 1
+            param 0x47df74 type 1
+            param 0x47df88 type 1
+            param 0x47df9c type 1
+            param 0x47dfb0 type 1
+            param 0x47dfc4 type 1
+            param 0x47dfd8 type 1
+            param 0x47dfec type 1
+            param 0x47e000 type 1
+            param 0x47e014 type 1
+            param 0x47e028 type 1
+            param 0x47e03c type 1
+            param 0x47e050 type 1
+            param 0x47e064 type 1
+            param 0x47e078 type 1
+            param 0x47e08c type 1
+            param 0x47e0a0 type 1
+            param 0x47e0b4 type 1
+            param 0x47e0c8 type 1
+            param 0x47e0dc type 1
+            param 0x47e0f0 type 1
+            param 0x47e104 type 1
+            param 0x47e118 type 1
+            i 5 pos 0
+            i 22 pos 0
+            lambda_search_index 4 pos_best 0
+            param 0x47dd6c type 1
+            param 0x47dd80 type 1
+            param 0x47dd94 type 1
+            param 0x47dda8 type 1
+            param 0x47ddbc type 1
+            param 0x47ddd0 type 1
+            param 0x47dde4 type 1
+            param 0x47ddf8 type 1
+            param 0x47de0c type 1
+            param 0x47de20 type 1
+            param 0x47de34 type 1
+            param 0x47de48 type 1
+            param 0x47de5c type 1
+            param 0x47de70 type 1
+            param 0x47de84 type 1
+            param 0x47de98 type 1
+            param 0x47deac type 1
+            param 0x47dec0 type 1
+            param 0x47ded4 type 1
+            param 0x47dee8 type 1
+            param 0x47defc type 1
+            param 0x47df10 type 1
+            index 4
+            lambda_get_n_int 1
+            lambda_replace "12" "12" "4" 1
+            lambda_replace "4"
+        normal_alg "4"
+    turing_seek_rule ret 4
+    turing_step n 4
+    turing_change_symbol "_123_" 2
+        normal_alg "_123_" 1
+        normal rules[0] = ("_12" "_12" 1)
+            param 0x479258 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from "_12"
+            lambda_get_n_string "_12"
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from "_12"
+            lambda_get_n_string "_12"
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "_123_" "_12" "_12" 1
+            lambda_replace "_123_"
+        normal_alg "_123_"
+    turing_change_symbol return TRUE
+    turing_change_pos 2 5
+        normal_alg "" 1
+        normal rules[0] = ("" "" 1)
+            param 0x479258 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "" "" "" 1
+            lambda_replace ""
+        normal_alg ""
+    turing_change_pos new pos 3 ret 1
+    turing_change_state 1635628
+        normal_alg "" 1
+        normal rules[0] = ("" "" 1)
+            param 0x479258 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "" "" "" 1
+            lambda_replace ""
+        normal_alg ""
+    turing_change_state new state 1635628 ret 0
+    turing_step ret 1
+    turing_step "_123_" 3 1 21
+    turing_seek_rule 3 1 21
+        normal_alg "13" 22
+        normal rules[0] = ("10" "10" 1)
+        normal rules[1] = ("20" "20" 1)
+        normal rules[2] = ("11" "11" 1)
+        normal rules[3] = ("21" "21" 1)
+        normal rules[4] = ("12" "12" 1)
+        normal rules[5] = ("22" "22" 1)
+        normal rules[6] = ("13" "13" 1)
+        normal rules[7] = ("23" "23" 1)
+        normal rules[8] = ("14" "14" 1)
+        normal rules[9] = ("24" "24" 1)
+        normal rules[10] = ("15" "15" 1)
+        normal rules[11] = ("25" "25" 1)
+        normal rules[12] = ("16" "16" 1)
+        normal rules[13] = ("26" "26" 1)
+        normal rules[14] = ("17" "17" 1)
+        normal rules[15] = ("27" "27" 1)
+        normal rules[16] = ("18" "18" 1)
+        normal rules[17] = ("28" "28" 1)
+        normal rules[18] = ("19" "19" 1)
+        normal rules[19] = ("29" "29" 1)
+        normal rules[20] = ("1_" "1_" 1)
+        normal rules[21] = ("13" "13" 1)
+            param 0x47d458 type 2
+            lambda_replace
+            param 0x47d4a8 type 1
+            param 0x47d4bc type 2
+            lambda_get_n_string
+            param 0x47d538 type 2
+            lambda_search_index
+            param 0x47d740 type 1
+            param 0x47d754 type 1
+            param 0x47d768 type 1
+            param 0x47d77c type 1
+            param 0x47d790 type 1
+            param 0x47d7a4 type 1
+            param 0x47d7b8 type 1
+            param 0x47d7cc type 1
+            param 0x47d7e0 type 1
+            param 0x47d7f4 type 1
+            param 0x47d808 type 1
+            param 0x47d81c type 1
+            param 0x47d830 type 1
+            param 0x47d844 type 1
+            param 0x47d858 type 1
+            param 0x47d86c type 1
+            param 0x47d880 type 1
+            param 0x47d894 type 1
+            param 0x47d8a8 type 1
+            param 0x47d8bc type 1
+            param 0x47d8d0 type 1
+            param 0x47d8e4 type 1
+            param 0x47d8f8 type 1
+            i 7 pos 0
+            i 22 pos 0
+            lambda_search_index 6 pos_best 0
+            param 0x47d54c type 1
+            param 0x47d560 type 1
+            param 0x47d574 type 1
+            param 0x47d588 type 1
+            param 0x47d59c type 1
+            param 0x47d5b0 type 1
+            param 0x47d5c4 type 1
+            param 0x47d5d8 type 1
+            param 0x47d5ec type 1
+            param 0x47d600 type 1
+            param 0x47d614 type 1
+            param 0x47d628 type 1
+            param 0x47d63c type 1
+            param 0x47d650 type 1
+            param 0x47d664 type 1
+            param 0x47d678 type 1
+            param 0x47d68c type 1
+            param 0x47d6a0 type 1
+            param 0x47d6b4 type 1
+            param 0x47d6c8 type 1
+            param 0x47d6dc type 1
+            param 0x47d6f0 type 1
+            index 6
+            str_from "13"
+            lambda_get_n_string "13"
+            param 0x47d4d0 type 2
+            lambda_get_n_string
+            param 0x47d948 type 2
+            lambda_search_index
+            param 0x47db50 type 1
+            param 0x47db64 type 1
+            param 0x47db78 type 1
+            param 0x47db8c type 1
+            param 0x47dba0 type 1
+            param 0x47dbb4 type 1
+            param 0x47dbc8 type 1
+            param 0x47dbdc type 1
+            param 0x47dbf0 type 1
+            param 0x47dc04 type 1
+            param 0x47dc18 type 1
+            param 0x47dc2c type 1
+            param 0x47dc40 type 1
+            param 0x47dc54 type 1
+            param 0x47dc68 type 1
+            param 0x47dc7c type 1
+            param 0x47dc90 type 1
+            param 0x47dca4 type 1
+            param 0x47dcb8 type 1
+            param 0x47dccc type 1
+            param 0x47dce0 type 1
+            param 0x47dcf4 type 1
+            param 0x47dd08 type 1
+            i 7 pos 0
+            i 22 pos 0
+            lambda_search_index 6 pos_best 0
+            param 0x47d95c type 1
+            param 0x47d970 type 1
+            param 0x47d984 type 1
+            param 0x47d998 type 1
+            param 0x47d9ac type 1
+            param 0x47d9c0 type 1
+            param 0x47d9d4 type 1
+            param 0x47d9e8 type 1
+            param 0x47d9fc type 1
+            param 0x47da10 type 1
+            param 0x47da24 type 1
+            param 0x47da38 type 1
+            param 0x47da4c type 1
+            param 0x47da60 type 1
+            param 0x47da74 type 1
+            param 0x47da88 type 1
+            param 0x47da9c type 1
+            param 0x47dab0 type 1
+            param 0x47dac4 type 1
+            param 0x47dad8 type 1
+            param 0x47daec type 1
+            param 0x47db00 type 1
+            index 6
+            str_from "6"
+            lambda_get_n_string "6"
+            param 0x47d4e4 type 2
+            lambda_get_n_int
+            param 0x47dd58 type 2
+            lambda_search_index
+            param 0x47df60 type 1
+            param 0x47df74 type 1
+            param 0x47df88 type 1
+            param 0x47df9c type 1
+            param 0x47dfb0 type 1
+            param 0x47dfc4 type 1
+            param 0x47dfd8 type 1
+            param 0x47dfec type 1
+            param 0x47e000 type 1
+            param 0x47e014 type 1
+            param 0x47e028 type 1
+            param 0x47e03c type 1
+            param 0x47e050 type 1
+            param 0x47e064 type 1
+            param 0x47e078 type 1
+            param 0x47e08c type 1
+            param 0x47e0a0 type 1
+            param 0x47e0b4 type 1
+            param 0x47e0c8 type 1
+            param 0x47e0dc type 1
+            param 0x47e0f0 type 1
+            param 0x47e104 type 1
+            param 0x47e118 type 1
+            i 7 pos 0
+            i 22 pos 0
+            lambda_search_index 6 pos_best 0
+            param 0x47dd6c type 1
+            param 0x47dd80 type 1
+            param 0x47dd94 type 1
+            param 0x47dda8 type 1
+            param 0x47ddbc type 1
+            param 0x47ddd0 type 1
+            param 0x47dde4 type 1
+            param 0x47ddf8 type 1
+            param 0x47de0c type 1
+            param 0x47de20 type 1
+            param 0x47de34 type 1
+            param 0x47de48 type 1
+            param 0x47de5c type 1
+            param 0x47de70 type 1
+            param 0x47de84 type 1
+            param 0x47de98 type 1
+            param 0x47deac type 1
+            param 0x47dec0 type 1
+            param 0x47ded4 type 1
+            param 0x47dee8 type 1
+            param 0x47defc type 1
+            param 0x47df10 type 1
+            index 6
+            lambda_get_n_int 1
+            lambda_replace "13" "13" "6" 1
+            lambda_replace "6"
+        normal_alg "6"
+    turing_seek_rule ret 6
+    turing_step n 6
+    turing_change_symbol "_123_" 3
+        normal_alg "_123_" 1
+        normal rules[0] = ("_123" "_123" 1)
+            param 0x47bdd0 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from "_123"
+            lambda_get_n_string "_123"
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from "_123"
+            lambda_get_n_string "_123"
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "_123_" "_123" "_123" 1
+            lambda_replace "_123_"
+        normal_alg "_123_"
+    turing_change_symbol return TRUE
+    turing_change_pos 3 5
+        normal_alg "" 1
+        normal rules[0] = ("" "" 1)
+            param 0x47bdd0 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "" "" "" 1
+            lambda_replace ""
+        normal_alg ""
+    turing_change_pos new pos 4 ret 1
+    turing_change_state 1635628
+        normal_alg "" 1
+        normal rules[0] = ("" "" 1)
+            param 0x47bdd0 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "" "" "" 1
+            lambda_replace ""
+        normal_alg ""
+    turing_change_state new state 1635628 ret 0
+    turing_step ret 1
+    turing_step "_123_" 4 1 21
+    turing_seek_rule _ 1 21
+        normal_alg "1_" 22
+        normal rules[0] = ("10" "10" 1)
+        normal rules[1] = ("20" "20" 1)
+        normal rules[2] = ("11" "11" 1)
+        normal rules[3] = ("21" "21" 1)
+        normal rules[4] = ("12" "12" 1)
+        normal rules[5] = ("22" "22" 1)
+        normal rules[6] = ("13" "13" 1)
+        normal rules[7] = ("23" "23" 1)
+        normal rules[8] = ("14" "14" 1)
+        normal rules[9] = ("24" "24" 1)
+        normal rules[10] = ("15" "15" 1)
+        normal rules[11] = ("25" "25" 1)
+        normal rules[12] = ("16" "16" 1)
+        normal rules[13] = ("26" "26" 1)
+        normal rules[14] = ("17" "17" 1)
+        normal rules[15] = ("27" "27" 1)
+        normal rules[16] = ("18" "18" 1)
+        normal rules[17] = ("28" "28" 1)
+        normal rules[18] = ("19" "19" 1)
+        normal rules[19] = ("29" "29" 1)
+        normal rules[20] = ("1_" "1_" 1)
+        normal rules[21] = ("1_" "1_" 1)
+            param 0x47d458 type 2
+            lambda_replace
+            param 0x47d4a8 type 1
+            param 0x47d4bc type 2
+            lambda_get_n_string
+            param 0x47d538 type 2
+            lambda_search_index
+            param 0x47d740 type 1
+            param 0x47d754 type 1
+            param 0x47d768 type 1
+            param 0x47d77c type 1
+            param 0x47d790 type 1
+            param 0x47d7a4 type 1
+            param 0x47d7b8 type 1
+            param 0x47d7cc type 1
+            param 0x47d7e0 type 1
+            param 0x47d7f4 type 1
+            param 0x47d808 type 1
+            param 0x47d81c type 1
+            param 0x47d830 type 1
+            param 0x47d844 type 1
+            param 0x47d858 type 1
+            param 0x47d86c type 1
+            param 0x47d880 type 1
+            param 0x47d894 type 1
+            param 0x47d8a8 type 1
+            param 0x47d8bc type 1
+            param 0x47d8d0 type 1
+            param 0x47d8e4 type 1
+            param 0x47d8f8 type 1
+            i 21 pos 0
+            i 22 pos 0
+            lambda_search_index 20 pos_best 0
+            param 0x47d54c type 1
+            param 0x47d560 type 1
+            param 0x47d574 type 1
+            param 0x47d588 type 1
+            param 0x47d59c type 1
+            param 0x47d5b0 type 1
+            param 0x47d5c4 type 1
+            param 0x47d5d8 type 1
+            param 0x47d5ec type 1
+            param 0x47d600 type 1
+            param 0x47d614 type 1
+            param 0x47d628 type 1
+            param 0x47d63c type 1
+            param 0x47d650 type 1
+            param 0x47d664 type 1
+            param 0x47d678 type 1
+            param 0x47d68c type 1
+            param 0x47d6a0 type 1
+            param 0x47d6b4 type 1
+            param 0x47d6c8 type 1
+            param 0x47d6dc type 1
+            param 0x47d6f0 type 1
+            index 20
+            str_from "1_"
+            lambda_get_n_string "1_"
+            param 0x47d4d0 type 2
+            lambda_get_n_string
+            param 0x47d948 type 2
+            lambda_search_index
+            param 0x47db50 type 1
+            param 0x47db64 type 1
+            param 0x47db78 type 1
+            param 0x47db8c type 1
+            param 0x47dba0 type 1
+            param 0x47dbb4 type 1
+            param 0x47dbc8 type 1
+            param 0x47dbdc type 1
+            param 0x47dbf0 type 1
+            param 0x47dc04 type 1
+            param 0x47dc18 type 1
+            param 0x47dc2c type 1
+            param 0x47dc40 type 1
+            param 0x47dc54 type 1
+            param 0x47dc68 type 1
+            param 0x47dc7c type 1
+            param 0x47dc90 type 1
+            param 0x47dca4 type 1
+            param 0x47dcb8 type 1
+            param 0x47dccc type 1
+            param 0x47dce0 type 1
+            param 0x47dcf4 type 1
+            param 0x47dd08 type 1
+            i 21 pos 0
+            i 22 pos 0
+            lambda_search_index 20 pos_best 0
+            param 0x47d95c type 1
+            param 0x47d970 type 1
+            param 0x47d984 type 1
+            param 0x47d998 type 1
+            param 0x47d9ac type 1
+            param 0x47d9c0 type 1
+            param 0x47d9d4 type 1
+            param 0x47d9e8 type 1
+            param 0x47d9fc type 1
+            param 0x47da10 type 1
+            param 0x47da24 type 1
+            param 0x47da38 type 1
+            param 0x47da4c type 1
+            param 0x47da60 type 1
+            param 0x47da74 type 1
+            param 0x47da88 type 1
+            param 0x47da9c type 1
+            param 0x47dab0 type 1
+            param 0x47dac4 type 1
+            param 0x47dad8 type 1
+            param 0x47daec type 1
+            param 0x47db00 type 1
+            index 20
+            str_from "D"
+            lambda_get_n_string "D"
+            param 0x47d4e4 type 2
+            lambda_get_n_int
+            param 0x47dd58 type 2
+            lambda_search_index
+            param 0x47df60 type 1
+            param 0x47df74 type 1
+            param 0x47df88 type 1
+            param 0x47df9c type 1
+            param 0x47dfb0 type 1
+            param 0x47dfc4 type 1
+            param 0x47dfd8 type 1
+            param 0x47dfec type 1
+            param 0x47e000 type 1
+            param 0x47e014 type 1
+            param 0x47e028 type 1
+            param 0x47e03c type 1
+            param 0x47e050 type 1
+            param 0x47e064 type 1
+            param 0x47e078 type 1
+            param 0x47e08c type 1
+            param 0x47e0a0 type 1
+            param 0x47e0b4 type 1
+            param 0x47e0c8 type 1
+            param 0x47e0dc type 1
+            param 0x47e0f0 type 1
+            param 0x47e104 type 1
+            param 0x47e118 type 1
+            i 21 pos 0
+            i 22 pos 0
+            lambda_search_index 20 pos_best 0
+            param 0x47dd6c type 1
+            param 0x47dd80 type 1
+            param 0x47dd94 type 1
+            param 0x47dda8 type 1
+            param 0x47ddbc type 1
+            param 0x47ddd0 type 1
+            param 0x47dde4 type 1
+            param 0x47ddf8 type 1
+            param 0x47de0c type 1
+            param 0x47de20 type 1
+            param 0x47de34 type 1
+            param 0x47de48 type 1
+            param 0x47de5c type 1
+            param 0x47de70 type 1
+            param 0x47de84 type 1
+            param 0x47de98 type 1
+            param 0x47deac type 1
+            param 0x47dec0 type 1
+            param 0x47ded4 type 1
+            param 0x47dee8 type 1
+            param 0x47defc type 1
+            param 0x47df10 type 1
+            index 20
+            lambda_get_n_int 1
+            lambda_replace "1_" "1_" "D" 1
+            lambda_replace "D"
+        normal_alg "D"
+    turing_seek_rule ret 20
+    turing_step n 20
+    turing_change_symbol "_123_" 4
+        normal_alg "_123_" 1
+        normal rules[0] = ("_123_" "_123_" 1)
+            param 0x479258 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from "_123_"
+            lambda_get_n_string "_123_"
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from "_123_"
+            lambda_get_n_string "_123_"
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "_123_" "_123_" "_123_" 1
+            lambda_replace "_123_"
+        normal_alg "_123_"
+    turing_change_symbol return TRUE
+    turing_change_pos 4 5
+        normal_alg "" 1
+        normal rules[0] = ("" "" 1)
+            param 0x479258 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "" "" "" 1
+            lambda_replace ""
+        normal_alg ""
+    turing_change_pos new pos 3 ret 1
+    turing_change_state 1635628
+        normal_alg "" 1
+        normal rules[0] = ("" "" 1)
+            param 0x479258 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "" "" "" 1
+            lambda_replace ""
+        normal_alg ""
+    turing_change_state new state 1635628 ret 1
+    turing_step ret 1
+    turing_step "_123_" 3 2 21
+    turing_seek_rule 3 2 21
+        normal_alg "23" 22
+        normal rules[0] = ("10" "10" 1)
+        normal rules[1] = ("20" "20" 1)
+        normal rules[2] = ("11" "11" 1)
+        normal rules[3] = ("21" "21" 1)
+        normal rules[4] = ("12" "12" 1)
+        normal rules[5] = ("22" "22" 1)
+        normal rules[6] = ("13" "13" 1)
+        normal rules[7] = ("23" "23" 1)
+        normal rules[8] = ("14" "14" 1)
+        normal rules[9] = ("24" "24" 1)
+        normal rules[10] = ("15" "15" 1)
+        normal rules[11] = ("25" "25" 1)
+        normal rules[12] = ("16" "16" 1)
+        normal rules[13] = ("26" "26" 1)
+        normal rules[14] = ("17" "17" 1)
+        normal rules[15] = ("27" "27" 1)
+        normal rules[16] = ("18" "18" 1)
+        normal rules[17] = ("28" "28" 1)
+        normal rules[18] = ("19" "19" 1)
+        normal rules[19] = ("29" "29" 1)
+        normal rules[20] = ("1_" "1_" 1)
+        normal rules[21] = ("23" "23" 1)
+            param 0x47d458 type 2
+            lambda_replace
+            param 0x47d4a8 type 1
+            param 0x47d4bc type 2
+            lambda_get_n_string
+            param 0x47d538 type 2
+            lambda_search_index
+            param 0x47d740 type 1
+            param 0x47d754 type 1
+            param 0x47d768 type 1
+            param 0x47d77c type 1
+            param 0x47d790 type 1
+            param 0x47d7a4 type 1
+            param 0x47d7b8 type 1
+            param 0x47d7cc type 1
+            param 0x47d7e0 type 1
+            param 0x47d7f4 type 1
+            param 0x47d808 type 1
+            param 0x47d81c type 1
+            param 0x47d830 type 1
+            param 0x47d844 type 1
+            param 0x47d858 type 1
+            param 0x47d86c type 1
+            param 0x47d880 type 1
+            param 0x47d894 type 1
+            param 0x47d8a8 type 1
+            param 0x47d8bc type 1
+            param 0x47d8d0 type 1
+            param 0x47d8e4 type 1
+            param 0x47d8f8 type 1
+            i 8 pos 0
+            i 22 pos 0
+            lambda_search_index 7 pos_best 0
+            param 0x47d54c type 1
+            param 0x47d560 type 1
+            param 0x47d574 type 1
+            param 0x47d588 type 1
+            param 0x47d59c type 1
+            param 0x47d5b0 type 1
+            param 0x47d5c4 type 1
+            param 0x47d5d8 type 1
+            param 0x47d5ec type 1
+            param 0x47d600 type 1
+            param 0x47d614 type 1
+            param 0x47d628 type 1
+            param 0x47d63c type 1
+            param 0x47d650 type 1
+            param 0x47d664 type 1
+            param 0x47d678 type 1
+            param 0x47d68c type 1
+            param 0x47d6a0 type 1
+            param 0x47d6b4 type 1
+            param 0x47d6c8 type 1
+            param 0x47d6dc type 1
+            param 0x47d6f0 type 1
+            index 7
+            str_from "23"
+            lambda_get_n_string "23"
+            param 0x47d4d0 type 2
+            lambda_get_n_string
+            param 0x47d948 type 2
+            lambda_search_index
+            param 0x47db50 type 1
+            param 0x47db64 type 1
+            param 0x47db78 type 1
+            param 0x47db8c type 1
+            param 0x47dba0 type 1
+            param 0x47dbb4 type 1
+            param 0x47dbc8 type 1
+            param 0x47dbdc type 1
+            param 0x47dbf0 type 1
+            param 0x47dc04 type 1
+            param 0x47dc18 type 1
+            param 0x47dc2c type 1
+            param 0x47dc40 type 1
+            param 0x47dc54 type 1
+            param 0x47dc68 type 1
+            param 0x47dc7c type 1
+            param 0x47dc90 type 1
+            param 0x47dca4 type 1
+            param 0x47dcb8 type 1
+            param 0x47dccc type 1
+            param 0x47dce0 type 1
+            param 0x47dcf4 type 1
+            param 0x47dd08 type 1
+            i 8 pos 0
+            i 22 pos 0
+            lambda_search_index 7 pos_best 0
+            param 0x47d95c type 1
+            param 0x47d970 type 1
+            param 0x47d984 type 1
+            param 0x47d998 type 1
+            param 0x47d9ac type 1
+            param 0x47d9c0 type 1
+            param 0x47d9d4 type 1
+            param 0x47d9e8 type 1
+            param 0x47d9fc type 1
+            param 0x47da10 type 1
+            param 0x47da24 type 1
+            param 0x47da38 type 1
+            param 0x47da4c type 1
+            param 0x47da60 type 1
+            param 0x47da74 type 1
+            param 0x47da88 type 1
+            param 0x47da9c type 1
+            param 0x47dab0 type 1
+            param 0x47dac4 type 1
+            param 0x47dad8 type 1
+            param 0x47daec type 1
+            param 0x47db00 type 1
+            index 7
+            str_from "7"
+            lambda_get_n_string "7"
+            param 0x47d4e4 type 2
+            lambda_get_n_int
+            param 0x47dd58 type 2
+            lambda_search_index
+            param 0x47df60 type 1
+            param 0x47df74 type 1
+            param 0x47df88 type 1
+            param 0x47df9c type 1
+            param 0x47dfb0 type 1
+            param 0x47dfc4 type 1
+            param 0x47dfd8 type 1
+            param 0x47dfec type 1
+            param 0x47e000 type 1
+            param 0x47e014 type 1
+            param 0x47e028 type 1
+            param 0x47e03c type 1
+            param 0x47e050 type 1
+            param 0x47e064 type 1
+            param 0x47e078 type 1
+            param 0x47e08c type 1
+            param 0x47e0a0 type 1
+            param 0x47e0b4 type 1
+            param 0x47e0c8 type 1
+            param 0x47e0dc type 1
+            param 0x47e0f0 type 1
+            param 0x47e104 type 1
+            param 0x47e118 type 1
+            i 8 pos 0
+            i 22 pos 0
+            lambda_search_index 7 pos_best 0
+            param 0x47dd6c type 1
+            param 0x47dd80 type 1
+            param 0x47dd94 type 1
+            param 0x47dda8 type 1
+            param 0x47ddbc type 1
+            param 0x47ddd0 type 1
+            param 0x47dde4 type 1
+            param 0x47ddf8 type 1
+            param 0x47de0c type 1
+            param 0x47de20 type 1
+            param 0x47de34 type 1
+            param 0x47de48 type 1
+            param 0x47de5c type 1
+            param 0x47de70 type 1
+            param 0x47de84 type 1
+            param 0x47de98 type 1
+            param 0x47deac type 1
+            param 0x47dec0 type 1
+            param 0x47ded4 type 1
+            param 0x47dee8 type 1
+            param 0x47defc type 1
+            param 0x47df10 type 1
+            index 7
+            lambda_get_n_int 1
+            lambda_replace "23" "23" "7" 1
+            lambda_replace "7"
+        normal_alg "7"
+    turing_seek_rule ret 7
+    turing_step n 7
+    turing_change_symbol "_123_" 3
+        normal_alg "_123_" 1
+        normal rules[0] = ("_123" "_123" 1)
+            param 0x47bdd0 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from "_123"
+            lambda_get_n_string "_123"
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from "_124"
+            lambda_get_n_string "_124"
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "_123_" "_123" "_124" 1
+            lambda_replace "_124_"
+        normal_alg "_124_"
+    turing_change_symbol return TRUE
+    turing_change_pos 3 5
+    turing_change_pos new pos 3 ret 1
+    turing_change_state 1635628
+        normal_alg "" 1
+        normal rules[0] = ("" "" 1)
+            param 0x47bdd0 type 2
+            lambda_replace
+            param 0x479e08 type 1
+            param 0x479e1c type 2
+            lambda_get_n_string
+            param 0x479e98 type 2
+            lambda_search_index
+            param 0x479f00 type 1
+            param 0x479f14 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479eac type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e30 type 2
+            lambda_get_n_string
+            param 0x479f68 type 2
+            lambda_search_index
+            param 0x479fd0 type 1
+            param 0x479fe4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x479f7c type 1
+            index 0
+            str_from ""
+            lambda_get_n_string ""
+            param 0x479e44 type 2
+            lambda_get_n_int
+            param 0x47a038 type 2
+            lambda_search_index
+            param 0x47a0a0 type 1
+            param 0x47a0b4 type 1
+            i 1 pos 0
+            lambda_search_index 0 pos_best 0
+            param 0x47a04c type 1
+            index 0
+            lambda_get_n_int 1
+            lambda_replace "" "" "" 1
+            lambda_replace ""
+        normal_alg ""
+    turing_change_state new state 1635628 ret 1
+    turing_step ret 1
+    turing_step "_124_" 3 3 21
+    turing_seek_rule 4 3 21
+        normal_alg "34" 22
+        normal rules[0] = ("10" "10" 1)
+        normal rules[1] = ("20" "20" 1)
+        normal rules[2] = ("11" "11" 1)
+        normal rules[3] = ("21" "21" 1)
+        normal rules[4] = ("12" "12" 1)
+        normal rules[5] = ("22" "22" 1)
+        normal rules[6] = ("13" "13" 1)
+        normal rules[7] = ("23" "23" 1)
+        normal rules[8] = ("14" "14" 1)
+        normal rules[9] = ("24" "24" 1)
+        normal rules[10] = ("15" "15" 1)
+        normal rules[11] = ("25" "25" 1)
+        normal rules[12] = ("16" "16" 1)
+        normal rules[13] = ("26" "26" 1)
+        normal rules[14] = ("17" "17" 1)
+        normal rules[15] = ("27" "27" 1)
+        normal rules[16] = ("18" "18" 1)
+        normal rules[17] = ("28" "28" 1)
+        normal rules[18] = ("19" "19" 1)
+        normal rules[19] = ("29" "29" 1)
+        normal rules[20] = ("1_" "1_" 1)
+        normal rules[21] = ("34" "34" 1)
+            param 0x47d458 type 2
+            lambda_replace
+            param 0x47d4a8 type 1
+            param 0x47d4bc type 2
+            lambda_get_n_string
+            param 0x47d538 type 2
+            lambda_search_index
+            param 0x47d740 type 1
+            param 0x47d754 type 1
+            param 0x47d768 type 1
+            param 0x47d77c type 1
+            param 0x47d790 type 1
+            param 0x47d7a4 type 1
+            param 0x47d7b8 type 1
+            param 0x47d7cc type 1
+            param 0x47d7e0 type 1
+            param 0x47d7f4 type 1
+            param 0x47d808 type 1
+            param 0x47d81c type 1
+            param 0x47d830 type 1
+            param 0x47d844 type 1
+            param 0x47d858 type 1
+            param 0x47d86c type 1
+            param 0x47d880 type 1
+            param 0x47d894 type 1
+            param 0x47d8a8 type 1
+            param 0x47d8bc type 1
+            param 0x47d8d0 type 1
+            param 0x47d8e4 type 1
+            param 0x47d8f8 type 1
+            i 22 pos 0
+            lambda_search_index 21 pos_best 0
+            param 0x47d54c type 1
+            param 0x47d560 type 1
+            param 0x47d574 type 1
+            param 0x47d588 type 1
+            param 0x47d59c type 1
+            param 0x47d5b0 type 1
+            param 0x47d5c4 type 1
+            param 0x47d5d8 type 1
+            param 0x47d5ec type 1
+            param 0x47d600 type 1
+            param 0x47d614 type 1
+            param 0x47d628 type 1
+            param 0x47d63c type 1
+            param 0x47d650 type 1
+            param 0x47d664 type 1
+            param 0x47d678 type 1
+            param 0x47d68c type 1
+            param 0x47d6a0 type 1
+            param 0x47d6b4 type 1
+            param 0x47d6c8 type 1
+            param 0x47d6dc type 1
+            param 0x47d6f0 type 1
+            index 21
+            str_from "34"
+            lambda_get_n_string "34"
+            param 0x47d4d0 type 2
+            lambda_get_n_string
+            param 0x47d948 type 2
+            lambda_search_index
+            param 0x47db50 type 1
+            param 0x47db64 type 1
+            param 0x47db78 type 1
+            param 0x47db8c type 1
+            param 0x47dba0 type 1
+            param 0x47dbb4 type 1
+            param 0x47dbc8 type 1
+            param 0x47dbdc type 1
+            param 0x47dbf0 type 1
+            param 0x47dc04 type 1
+            param 0x47dc18 type 1
+            param 0x47dc2c type 1
+            param 0x47dc40 type 1
+            param 0x47dc54 type 1
+            param 0x47dc68 type 1
+            param 0x47dc7c type 1
+            param 0x47dc90 type 1
+            param 0x47dca4 type 1
+            param 0x47dcb8 type 1
+            param 0x47dccc type 1
+            param 0x47dce0 type 1
+            param 0x47dcf4 type 1
+            param 0x47dd08 type 1
+            i 22 pos 0
+            lambda_search_index 21 pos_best 0
+            param 0x47d95c type 1
+            param 0x47d970 type 1
+            param 0x47d984 type 1
+            param 0x47d998 type 1
+            param 0x47d9ac type 1
+            param 0x47d9c0 type 1
+            param 0x47d9d4 type 1
+            param 0x47d9e8 type 1
+            param 0x47d9fc type 1
+            param 0x47da10 type 1
+            param 0x47da24 type 1
+            param 0x47da38 type 1
+            param 0x47da4c type 1
+            param 0x47da60 type 1
+            param 0x47da74 type 1
+            param 0x47da88 type 1
+            param 0x47da9c type 1
+            param 0x47dab0 type 1
+            param 0x47dac4 type 1
+            param 0x47dad8 type 1
+            param 0x47daec type 1
+            param 0x47db00 type 1
+            index 21
+            str_from "_"
+            lambda_get_n_string "_"
+            param 0x47d4e4 type 2
+            lambda_get_n_int
+            param 0x47dd58 type 2
+            lambda_search_index
+            param 0x47df60 type 1
+            param 0x47df74 type 1
+            param 0x47df88 type 1
+            param 0x47df9c type 1
+            param 0x47dfb0 type 1
+            param 0x47dfc4 type 1
+            param 0x47dfd8 type 1
+            param 0x47dfec type 1
+            param 0x47e000 type 1
+            param 0x47e014 type 1
+            param 0x47e028 type 1
+            param 0x47e03c type 1
+            param 0x47e050 type 1
+            param 0x47e064 type 1
+            param 0x47e078 type 1
+            param 0x47e08c type 1
+            param 0x47e0a0 type 1
+            param 0x47e0b4 type 1
+            param 0x47e0c8 type 1
+            param 0x47e0dc type 1
+            param 0x47e0f0 type 1
+            param 0x47e104 type 1
+            param 0x47e118 type 1
+            i 22 pos 0
+            lambda_search_index 21 pos_best 0
+            param 0x47dd6c type 1
+            param 0x47dd80 type 1
+            param 0x47dd94 type 1
+            param 0x47dda8 type 1
+            param 0x47ddbc type 1
+            param 0x47ddd0 type 1
+            param 0x47dde4 type 1
+            param 0x47ddf8 type 1
+            param 0x47de0c type 1
+            param 0x47de20 type 1
+            param 0x47de34 type 1
+            param 0x47de48 type 1
+            param 0x47de5c type 1
+            param 0x47de70 type 1
+            param 0x47de84 type 1
+            param 0x47de98 type 1
+            param 0x47deac type 1
+            param 0x47dec0 type 1
+            param 0x47ded4 type 1
+            param 0x47dee8 type 1
+            param 0x47defc type 1
+            param 0x47df10 type 1
+            index 21
+            lambda_get_n_int 1
+            lambda_replace "34" "34" "_" 1
+            lambda_replace "_"
+        normal_alg "_"
+    turing_seek_rule ret -1
+    turing_step n -1
+    turing_step ret 0
+    turing_machine "124" 3 3
