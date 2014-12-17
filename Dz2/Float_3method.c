@@ -2,39 +2,58 @@
 //
 
 #include "stdafx.h"
-#include <conio.h>
-
 
 union val
 {
- float f;
- struct {
-		  unsigned int mantissa:23;
-		  unsigned int  exp:8;
-		  unsigned int sign:1;
- } image;
+ 	float f;
+ 	struct 
+ 	{
+		unsigned int mantissa:23;
+		unsigned int  exp:8;
+		unsigned int sign:1;
+ 	} image;
 };
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	val fval;
-	float a,b;
-	scanf("%f",&a);
-	scanf("%f",&b);
-	fval.f=a/b;
-	if (fval.image.exp==255 && !fval.image.mantissa) {
-		if (!fval.image.sign) printf ("infinity"); else printf ("-infinity");
-	}
-	else 
-		if (fval.image.exp==255 && fval.image.mantissa) printf("NaN");
+	float firstval = 0, secondval = 0;
+	scanf("%f",&firstval);
+	scanf("%f",&secondval);
+	fval.f= ferstval / secondval;
+	
+	if (fval.image.exp==255 && !fval.image.mantissa)
+	{
+		if (!fval.image.sign)
+		{
+			printf ("infinity")
+		}
 		else 
-			if (!fval.image.exp && !fval.image.mantissa) printf("fval=0");
+		{
+			printf ("-infinity");
+		}
+			
+	}
+	else
+	{
+		if (fval.image.exp==255 && fval.image.mantissa) 
+		{
+			printf("NaN");
+		}
+		else
+		{
+			if (!fval.image.exp && !fval.image.mantissa)
+			{
+				printf("fval=0");
+			}
 			else
 			{
 				printf("fval = (-1)^%d*2^%d*1.%lu ",  fval.image.sign, fval.image.exp-127, fval.image.mantissa);
 			}
-	getch();
+		}
+	}	
+
 	return 0;
 }
 
