@@ -247,12 +247,19 @@ struct number *LongMath_div(struct number *num1, struct number *num2)
 {
 	struct number* result;
 	
-int pow = 0;
+	int pow = 0;
 	int i;
 	struct node *n1;
 	struct node *n2;
 	int tmp;
-	
+
+	// деление на ноль
+	if (num2->head->next==0 && num2->head->val==0)
+	{
+		printf("Division by 0\n");
+		return NULL;
+	}
+
 	result = numbers_Init();
 	result->sign = num1->sign==num2->sign ? 1 : -1;
 

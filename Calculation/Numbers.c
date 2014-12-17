@@ -12,32 +12,40 @@ struct number* numbers_Init(){
 }
 
 
-void numbers_Read(struct number *num, char *string){
+void numbers_Read(struct number *num, struct node *lexem){
 	int val;
 	int i=0;
-	if (string[0]=='-') {
-		num->sign=-1;
-		string[0]='0';
-	}
-	else if (string[0]=='+')
-	{
-		string[0]='0';
-	}
-	for (i=strlen(string)-1; i>=0; i=i-3)
-	{
-		val = string[i]-'0' +10* (i-1>=0 ? (string[i-1]-'0') : 0)+100* (i-2>=0 ? (string[i-2]-'0') : 0);
+	int pow;
+	struct node *symbol;
+	
+	symbol = lexem;
+	while (symbol != NULL){
+		val=0;
+		pow=1;
+		for (i=0; i<3 && symbol!=NULL; i++){
+			if (symbol->val=='-') {
+				num->sign=-1;
+				symbol = symbol->next;
+				break;
+			}
+			else if (symbol->val=='+')
+			{
+				symbol = symbol->next;
+				break;
+			}
+			val += pow*(symbol->val - '0');
+			pow *= 10;
+			symbol = symbol->next;
+		}
 		linkedList_Add(val, &(num->head));
 	}
+
 	linkedList_Revert(&(num->head));
+
+	linkedList_Free(lexem);
 }
 
 void numbers_Free(struct number* num){
-	 struct node* next;
-	struct node* n = num->head;
-	while(n!=NULL){
-	next = n->next;
-	free(n);
-	n=next;
-	}
-  free(num);
+	linkedList_Free(num->head);
+	free(num);
 }

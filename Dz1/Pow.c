@@ -6,23 +6,24 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int a=0,n=0,s=1;
-	scanf("%d\n", &a);
-	scanf("%d", &n);
-	while (n)
-		{
-		if (!(n&1))
-			{
-			n=n>>1;
-			a*=a;
-			}
-		else
-			{
-			n--;
-			s*=a;
-			}
+	int val = 0, pow = 0 , result = 1;
+	scanf("%d\n",  &val);
+	scanf("%d",  &pow);
+	while (pow)
+	{
+        if (!(pow & 1))
+        {
+            pow = pow >> 1;
+			val *= val;
 		}
-	printf("%d",s);
+		else
+		{
+			pow--;
+			result *= val;
+		}
+	}
+
+	printf("%d", result);
 
     getch();
 	return 0;
