@@ -2,29 +2,27 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
  
-
  
-int main(int argc, char **argv)
+int main()
 {
-    char a[sizeof(int) * 8] = "   ";
-    int i = 0;
-	int k = 0;
-	unsigned int k1;
+	char result[sizeof(int) * 8] = "   ";
+	int counter = 0;
+	int val = 0;
+	unsigned int valwithoutsign;
 
-	scanf("%d",  &k);
-	k1 = (unsigned int)k;
-	i=sizeof(a) - 2; // nuber of last elem of array
+	scanf("%d",  &val);
+	valwithoutsign = (unsigned int)val;
+	counter = sizeof(result) - 2; // nuber of last elem of array
 
-	 while(k1 != 0 && i > 0)
-    {
-        a[i] = '0'  + (k1 % 2);
-		k1 /= 2;
-		i--;
+	while(valwithoutsign != 0 && counter > 0)
+    	{
+        	result[counter] = '0'  + (valwithoutsign % 2);
+		valwithoutsign /= 2;
+		counter--;
 	}
 
-	printf("%s", a);
-	getch();
+	printf("%s", result);
+	
 	return 0;
 }
