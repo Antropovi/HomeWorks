@@ -2,7 +2,6 @@
 //
 
 #include "stdafx.h"
-#include <conio.h>
 
 struct MyStruct
 {
@@ -10,45 +9,47 @@ struct MyStruct
 	float fval;
 };
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
-	MyStruct val;
-	float a = 0, b = 0;
-	scanf("%f", &a);
-	scanf("%f", &b);
-	val.fval=a / b;
+	MyStruct val=NULL;
+	float valin = 0, valout = 0;
+	scanf("%f", &valin);
+	scanf("%f", &valout);
+	
+	val.fval=valin / valout;
 	val.ival = *((int*)((void*) &val.fval));
 	unsigned exp = (val.ival >> 23) & 0xff;
 	unsigned sign = (val.ival>> 31) & 0x01;
 	unsigned mantissa=(val.ival  & 0x007fffff);
+	
 	if (exp==255 && !mantissa) 
-    {
+    	{
 		if (!sign) 
-        {
-            printf ("infinity");
-        }
-        else
-        { 
-            printf ("-infinity");
-        }
+        	{
+            		printf ("infinity");
+        	}
+        	else
+        	{ 
+            		printf ("-infinity");
+        	}
 	}
 	else
-    { 
+    	{ 
 		if (exp==255 && mantissa) 
-        {
-            printf("NaN");
+        	{
+            		printf("NaN");
 		}
-        else
-        { 
+        	else
+        	{ 
 			if (!exp && !mantissa) 
-            {
-                printf("fval=0");
+            		{
+                		printf("fval=0");
 			}
-            else
+            		else
 			{
 				printf("fval = (-1)^%d*2^%d*1.%lu ", sign, exp-127, mantissa);
 			}
-        }
-    }
+        	}
+	 }
 }
 
