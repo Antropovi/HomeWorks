@@ -2,6 +2,7 @@
 //
 
 #include "stdafx.h"
+#define maxexp 255
 
 struct MyStruct
 {
@@ -25,13 +26,13 @@ int main()
 	unsigned sign = (val.val.ival > >31) & 0x01;
 	unsigned mantissa = (val.val.ival & 0x007fffff);
 	
-	if (exp==255 && !mantissa) 
+	if (exp==maxexp && !mantissa) 
 	{
 		if (!sign) printf ("infinity"); else printf ("-infinity");
 	}
 	else 
 	{
-		if (exp==255 && mantissa) 
+		if (exp==maxexp && mantissa) 
 		{
 			printf("NaN");
 		}
