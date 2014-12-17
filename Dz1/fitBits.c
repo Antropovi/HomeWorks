@@ -3,19 +3,17 @@
 
 
 #include "stdafx.h"
-#include <conio.h>
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	long int val = 0 , tmp = 0;
 	scanf("%ld",  &val);
 	scanf("%ld",  &tmp);
 
-	int ABSval = (val ^ (val >> 31)) - (val>>31); //val=abs(val)
-	int result = !(ABSval >> (tmp << 3)); 
+	int absval = (val ^ (val >> 31)) - (val>>31); //val=abs(val)
+	int result = !(absval >> (tmp << 3)); 
 	printf("%ld",  result);
 
-	getch();
 	return 0;
 }
 
