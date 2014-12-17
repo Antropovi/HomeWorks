@@ -1,19 +1,18 @@
 // Антропов И М Reavization of fast powing
 
 #include "stdafx.h"
-#include <conio.h>
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	int val = 0, pow = 0 , result = 1;
 	scanf("%d\n",  &val);
 	scanf("%d",  &pow);
 	while (pow)
 	{
-        if (!(pow & 1))
-        {
-            pow = pow >> 1;
+        	if (!(pow & 1))
+        	{
+            		pow = pow >> 1;
 			val *= val;
 		}
 		else
@@ -25,7 +24,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	printf("%d", result);
 
-    getch();
 	return 0;
 }
 
