@@ -2,6 +2,7 @@
 //
 
 #include "stdafx.h"
+#define maxexp 255
 
 union val
 {
@@ -23,7 +24,7 @@ int main()
 	scanf("%f",&secondval);
 	fval.f= ferstval / secondval;
 	
-	if (fval.image.exp==255 && !fval.image.mantissa)
+	if (fval.image.exp==maxexp && !fval.image.mantissa)
 	{
 		if (!fval.image.sign)
 		{
@@ -37,7 +38,7 @@ int main()
 	}
 	else
 	{
-		if (fval.image.exp==255 && fval.image.mantissa) 
+		if (fval.image.exp==maxexp && fval.image.mantissa) 
 		{
 			printf("NaN");
 		}
