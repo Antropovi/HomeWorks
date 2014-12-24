@@ -1,8 +1,8 @@
 
 struct node
 {
- int val;
- struct node *next;
+	   int val;
+	   struct node *next;
 };
 
 void linkedList_Revert(struct node ** head);
