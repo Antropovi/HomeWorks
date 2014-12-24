@@ -22,7 +22,7 @@ void overflow(char str[])
 
 void login() 
 {
-  printf("\nChtoto poshlo ne tak\n");
+  printf("\nSomething going wrong\n");
 }
 
 int main(void) 
