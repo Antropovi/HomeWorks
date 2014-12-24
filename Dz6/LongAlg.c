@@ -1,46 +1,41 @@
-// LongAlg.cpp : Defines the entry point for the console application.
+// LongAlg.c: Антропов Игорь Михайлович Длинная арифметика с 2 операндами
 //
 
-#include <conio.h>
 #include "stdafx.h"
 #include <string.h>
 
 
 int main()
 {
-	char InPutString[256];
-	char operation;
 	struct number *first = numbers_Init();
 	struct number *second = numbers_Init();
 	struct number *finaly;
+	char operation[2];
 
-	scanf("%s", InPutString);
-	numbers_Read(first, InPutString);
-	scanf("%s", InPutString);
-	operation = InPutString[0];
-	scanf("%s", InPutString);
-	numbers_Read(second, InPutString);
-	switch (operation)
+	numbers_Read(first);
+	fgets(operation, 2, stdin);
+	numbers_Read(second);
+	switch (operation[0])
 	{
 	case '+':
-		finaly = LongMath_plus(first, second);
+		finaly = longMath_Plus(first, second);
 		break;
 	case '-':
-		finaly = LongMath_minus(first, second);
+		finaly = longMath_Minus(first, second);
 		break;
 	case '*':
-		finaly = LongMath_multi(first, second);
+		finaly = longMath_Multi(first, second);
 		break;
 	case '/':
-		finaly = LongMath_div(first, second);
+		finaly = longMath_Div(first, second);
 		break;
 	}
-	if (finaly->sign!=1) printf("-");
+
+	if (finaly->sign != 1) printf("-");
 	linkedList_Print(finaly->head);
 	numbers_Free(first);
 	numbers_Free(second);
 	numbers_Free(finaly);
-	getch();
 	return 0;
 }
 
