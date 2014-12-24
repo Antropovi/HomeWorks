@@ -1,10 +1,11 @@
-#include <conio.h>
+
 #include <stdlib.h>
 #include <string.h> 
 #include "stdafx.h"
 
 
-struct number* numbers_Init(){
+struct number* numbers_Init()
+{
 	struct number* new_number = (struct number*)malloc(sizeof(struct number));
 	new_number->sign = 1;
 	new_number->head = NULL;
@@ -12,23 +13,24 @@ struct number* numbers_Init(){
 }
 
 
-void numbers_Read(struct number *num, struct node *lexem){
+void numbers_Read(struct number *num, struct node *lexem)
+{
 	int val;
-	int i=0;
+	int counter=0;
 	int pow;
 	struct node *symbol;
 	
 	symbol = lexem;
 	while (symbol != NULL){
-		val=0;
-		pow=1;
-		for (i=0; i<3 && symbol!=NULL; i++){
-			if (symbol->val=='-') {
-				num->sign=-1;
+		val = 0;
+		pow = 1;
+		for (counter=0; counet < 3 && symbol != NULL; counter++){
+			if (symbol->val == '-') {
+				num->sign = -1;
 				symbol = symbol->next;
 				break;
 			}
-			else if (symbol->val=='+')
+			else if (symbol->val == '+')
 			{
 				symbol = symbol->next;
 				break;
@@ -45,7 +47,8 @@ void numbers_Read(struct number *num, struct node *lexem){
 	linkedList_Free(lexem);
 }
 
-void numbers_Free(struct number* num){
+void numbers_Free(struct number* num)
+{
 	linkedList_Free(num->head);
 	free(num);
 }
