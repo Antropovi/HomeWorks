@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include <conio.h>
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	int val;
 	scanf("%d", &val);
