@@ -11,6 +11,6 @@ struct stack
 
 
 struct stack *stack_Add(struct stack *stack, struct node *lexem);
-int stack_Process(struct stack **stack);
+int stack_Process(struct stack **stack, char op);
 void stack_Print(struct stack *stack);
 void stack_Free(struct stack *stack);
